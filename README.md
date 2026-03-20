@@ -11,7 +11,9 @@ A fun browser-based dress up game where you can mix and match outfits and access
 ## ✨ Features
 
 🎀 **6 categories** — each with 3 options to mix and match
+
 🔊 Sound effects on every interaction
+
 📦 Items loaded dynamically via JSON
 
 ---
