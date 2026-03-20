@@ -1,0 +1,32 @@
+{
+    "face": [
+        "img/main/face/face1.png",
+        "img/main/face/face2.png",
+        "img/main/face/face3.png"
+    ],
+    "top": [
+        "img/main/shirt/shirt1.png",
+        "img/main/shirt/shirt2.png",
+        "img/main/shirt/shirt3.png"
+    ],
+    "bottom": [
+        "img/main/bottom/bottom1.png",
+        "img/main/bottom/bottom2.png",
+        "img/main/bottom/bottom3.png"
+    ],
+    "fHair": [
+        "img/main/frontHair/fHair1.png",
+        "img/main/frontHair/fHair2.png",
+        "img/main/frontHair/fHair3.png"
+    ],
+    "bHair": [
+        "img/main/backHair/bHair1.png",
+        "img/main/backHair/bHair2.png",
+        "img/main/backHair/bHair3.png"
+    ],
+    "shoe": [
+        "img/main/shoes/shoe1.png",
+        "img/main/shoes/shoe2.png",
+        "img/main/shoes/shoe3.png"
+    ]
+}

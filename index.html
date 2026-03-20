@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress up test</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+
+<body>
+
+    <div class="splash">
+        <button type="button" id="btn" onclick="splash()">Play!</button>
+        <p>an ugly dress up game :)<br>ver. 1.0</p>
+    </div>
+
+    <div class="container">
+
+        <div class="wrap">
+            <div class="main-container">
+                <img id="bHair" src="">
+                <img src="img/main/body.png" id="body" draggable="false">
+                <img id="face" src="">
+                <img id="top" src="">
+                <img id="bottom" src="">
+                <img id="fHair" src="">
+                <img id="shoe" src="">
+            </div>
+
+            <div class="active-area"
+                style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding: 20px;"
+                id="active-area"> <!-- show elements of the category-->
+                click on a button :)
+            </div>
+        </div>
+
+        <div class="select-window">
+            <img id="faceBtn" data-category="face" src="img/icons/face-ico.png" alt="face" title="Face o v o"
+                onclick="render(this)">
+
+            <img id="bkHairBtn" data-category="bHair" src="img/icons/bHair-ico.png" alt="back hair"
+                title="Back Hair owo" onclick="render(this)">
+
+            <img id="fHairBtn" data-category="fHair" src="img/icons/fHair-ico.png" title="front hair"
+                title="Front Hair vwv" onclick="render(this)">
+
+            <img id="topBtn" data-category="top" src="img/icons/shirt-ico.png" alt="top" title="Tops A w A"
+                onclick="render(this)">
+
+            <img id="bottomBtn" data-category="bottom" src="img/icons/bottom-ico.png" alt="bottom" title="Bottoms /o/0"
+                onclick="render(this)">
+
+            <img id="shoesBtn" data-category="shoe" src="img/icons/shoe-ico.png" alt="shoes" title="Shoes UWU"
+                onclick="render(this)">
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
